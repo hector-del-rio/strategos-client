@@ -1,0 +1,10 @@
+{
+    "REPORTS_PATH": "runtime/reports",
+    "PATH_STDIN": "stdin.bat",
+    "PATH_STDOUT": "stdout.txt",
+    "PATH_STDERR": "stderr.txt",
+    "PATH_STARTED_AT": "started.txt",
+    "PATH_ENDED_AT": "finished.txt",
+    "PATH_EXIT_CODE": "exit_code.txt",
+    "PATH_ERROR": "error.txt"
+}

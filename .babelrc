@@ -1,0 +1,6 @@
+{
+  "presets": [
+    ["env", {"targets": {"node": "9.0.0"}}]
+  ],
+  "plugins": ["babel-plugin-transform-builtin-extend", "babel-plugin-transform-object-rest-spread"]
+}
