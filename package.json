@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "build-win:dev": "yarn run webpack --config webpack.config.js && nexe -i dist/main.js --output dist/hoplite.exe --target 'windows-x64-9.0.0'",
-    "build-win:prod": "yarn run webpack --config webpack.config.prod.js && nexe -i dist/main.js --output dist/hoplite.exe --target 'windows-x64-9.0.0'",
+    "build-win:dev": "webpack --config webpack.config.js && nexe -i dist/main.js --output dist/hoplite.exe --target 'windows-x64-9.0.0'",
+    "build-win:prod": "webpack --config webpack.config.prod.js && nexe -i dist/main.js --output dist/hoplite.exe --target 'windows-x64-9.0.0'",
     "build-osx:dev": "webpack --config webpack.config.js && nexe -i dist/main.js --output dist/hoplite --target 'mac-x64-9.0.0'",
     "webpack:prod": "webpack -p --config webpack.config.prod.js",
     "webpack:dev": "webpack --watch --config webpack.config.js",
